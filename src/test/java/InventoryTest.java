@@ -30,7 +30,8 @@ public class InventoryTest {
         inventory.addProduct("Laptop", 5, 1000.0);
         inventory.addProduct("Phone", 10, 500.0);
 
-        // Aquí, puedes redirigir la salida estándar para verificar si la impresión es correcta.
+        // Aquí, puedes redirigir la salida estándar para verificar si la impresión es
+        // correcta.
         assertDoesNotThrow(() -> inventory.printInventory());
     }
 }
