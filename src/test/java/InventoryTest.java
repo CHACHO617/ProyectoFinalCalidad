@@ -18,7 +18,7 @@ public class InventoryTest {
         inventory.addProduct("Laptop", 5, 1000.0);
 
         // Verificar que se haya agregado un producto
-        List<Product> products = inventory.getProducts(); // Suponiendo que tienes un getter de productos
+        List<Product> products = inventory.getProducts();
         assertEquals(1, products.size());
         assertEquals("Laptop", products.get(0).getName());
         assertEquals(5, products.get(0).getQuantity());
@@ -30,9 +30,7 @@ public class InventoryTest {
         inventory.addProduct("Laptop", 5, 1000.0);
         inventory.addProduct("Phone", 10, 500.0);
 
-        // Aquí, puedes redirigir la salida estándar para verificar si la impresión es
-        // correcta,
-        // o simplemente asegurarte de que no haya errores al imprimir.
+        // Aquí, puedes redirigir la salida estándar para verificar si la impresión es correcta.
         assertDoesNotThrow(() -> inventory.printInventory());
     }
 }

@@ -10,7 +10,7 @@ public class Inventory {
         System.out.println("Product added.");
     }
 
-    // Método para imprimir el inventario completo
+    // Método para imprimir el inventario completo (Nombre, cantidad y precio)
     public void printInventory() {
         for (Product product : products) {
             System.out.println("Product: " + product.getName() + ", Quantity: " + product.getQuantity() + ", Price: $"
@@ -22,7 +22,7 @@ public class Inventory {
         return products;
     }
 
-    // Método main para probar la funcionalidad
+    // Método main para ejecutar el sistema y probar la funcionalidad
     public static void main(String[] args) {
         Inventory inventory = new Inventory();
         inventory.addProduct("Laptop", 5, 1000.0);
