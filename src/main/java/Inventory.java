@@ -4,7 +4,7 @@ import java.util.List;
 public class Inventory {
     private List<Product> products = new ArrayList<Product>();
 
-    // Método para agregar un nuevo producto a la lista
+    // Método para agregar un nuevo producto a la lista.
     public void addProduct(String name, int quantity, double price) {
         products.add(new Product(name, quantity, price));
         System.out.println("Product added.");
