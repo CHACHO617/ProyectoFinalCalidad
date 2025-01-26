@@ -10,7 +10,7 @@ public class Inventory {
         System.out.println("Product added.");
     }
 
-    // Método para imprimir el inventario completo (Nombre, cantidad y precio).
+    // Método para imprimir el inventario completo (Nombre, cantidad y precio)
     public void printInventory() {
         for (Product product : products) {
             System.out.println("Product: " + product.getName() + ", Quantity: " + product.getQuantity() + ", Price: $"
