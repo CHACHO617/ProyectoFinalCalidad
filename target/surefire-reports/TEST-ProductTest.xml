@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/nix/store/gpxl5qgg8kicmcvivwmybwjlpf7wh20l-graalvm17-ce-22.3.0/lib"/>
-    <property name="sun.java.command" value="/home/runner/workspace/target/surefire/surefirebooter17100989905142746630.jar /home/runner/workspace/target/surefire 2025-01-25T23-20-26_024-jvmRun1 surefire6334021276848543065tmp surefire_07690333098579715233tmp"/>
+    <property name="sun.java.command" value="/home/runner/workspace/target/surefire/surefirebooter1033363146781271570.jar /home/runner/workspace/target/surefire 2025-01-26T00-01-45_657-jvmRun1 surefire7414415821877467226tmp surefire_016066570811661002663tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/runner/workspace/target/test-classes:/home/runner/workspace/target/classes:/home/runner/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.0/junit-jupiter-engine-5.7.0.jar:/home/runner/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/runner/.m2/repository/org/junit/platform/junit-platform-engine/1.7.0/junit-platform-engine-1.7.0.jar:/home/runner/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/runner/.m2/repository/org/junit/platform/junit-platform-commons/1.7.0/junit-platform-commons-1.7.0.jar:/home/runner/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.0/junit-jupiter-api-5.7.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/home/runner/workspace/target/surefire/surefirebooter17100989905142746630.jar"/>
+    <property name="surefire.real.class.path" value="/home/runner/workspace/target/surefire/surefirebooter1033363146781271570.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.5+8-jvmci-22.3-b08"/>
     <property name="user.name" value="runner"/>
