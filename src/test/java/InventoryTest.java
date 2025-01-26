@@ -29,9 +29,10 @@ public class InventoryTest {
     public void testPrintInventory() {
         inventory.addProduct("Laptop", 5, 1000.0);
         inventory.addProduct("Phone", 10, 500.0);
+        InventoryPrinter printer = new InventoryPrinter(inventory.getProducts());
 
         // Aquí, puedes redirigir la salida estándar para verificar si la impresión es
         // correcta.
-        assertDoesNotThrow(() -> inventory.printInventory());
+        assertDoesNotThrow(() -> printer.printInventory());
     }
 }
